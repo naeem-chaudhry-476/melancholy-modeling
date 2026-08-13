@@ -1,0 +1,11 @@
+Planned_Predictor,Status,Columns_Found
+Age,In model,RIDAGEYR
+Sleep duration,In model,"SLD012, SLD013"
+Physical activity,In model,PAD680
+BMI,NOT IN DATA,-
+Education,In model,"DMDEDUC2, DMDEDUC2_-1.0, DMDEDUC2_1.0, DMDEDUC2_2.0 ..."
+Employment,NOT IN DATA,-
+Income,In model,INDFMPIR
+General health,NOT IN DATA,-
+Chronic diseases,NOT IN DATA,-
+Healthcare access,NOT IN DATA,-

@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1
+CatBoost,0.7573,0.2257,0.4638,0.3036
+XGBoost,0.7723,0.2365,0.4468,0.3093
+SVM,0.7864,0.2577,0.4638,0.3313
+LogisticRegression,0.782,0.2415,0.4255,0.3082
+RandomForest,0.7932,0.2232,0.3277,0.2655

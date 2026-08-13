@@ -1,0 +1,6 @@
+Model,Encoding,Features_Used,Project_Standard,Leaking,Extra_Non_Standard,Standard_Not_Used
+LogisticRegression,Nhanes_SVM_Logistic,54,54,-,-,-
+RandomForest,Nhanes_XGB_Forest,54,54,-,-,-
+SVM,Nhanes_SVM_Logistic,54,54,-,-,-
+XGBoost,Nhanes_XGB_Forest,54,54,-,-,-
+CatBoost,Nhanes_Cat,18,18,-,-,-
