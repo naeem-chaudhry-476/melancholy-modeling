@@ -42,10 +42,10 @@ The final project model is a CatBoost classifier trained on the prepared NHANES 
 | `2.DataWrangling.ipynb` | Cleans and merges data |
 | `3.EDA.ipynb` | Exploratory analysis and data review |
 | `4.FeatureEngineering.ipynb` | Creates modeling-ready feature sets |
-| `5.Modeling_CatBoost.ipynb` | CatBoost training and tuning |
-| `5.Modeling_rf_logreg.ipynb` | Logistic Regression and Random Forest models |
-| `5.Modeling_svm.ipynb` | SVM training pipeline |
-| `5.Modeling_XGBoost.ipynb` | XGBoost training pipeline |
+| `5.Modeling_CatBoost.ipynb` | CatBoost model training and tuning|
+| `5.Modeling_rf_logreg.ipynb` | Logistic Regression and Random Forest models training and tuning|
+| `5.Modeling_svm.ipynb` | SVM model training and tuning |
+| `5.Modeling_XGBoost.ipynb` | XGBoost model training and tuning|
 | `6.ModelComparison.ipynb` | Compares model results and selects final model |
 | `Nhanes_RawData/` | Raw NHANES `.xpt` datasets |
 | `DataSplit/` | Train/validation/test split CSV files |
@@ -191,7 +191,7 @@ This stage creates the train/validation/test splits that are later used by the m
 
 - CatBoost-friendly categorical data
 - One-hot encoded data for tree-based and linear models
-- Standardized/scaled data when needed by specific algorithms
+- Standardized/scaled data when needed by other algorithms (SVM, Logistic Regression)
 
 Typical output files in `DataSplit/` include:
 
